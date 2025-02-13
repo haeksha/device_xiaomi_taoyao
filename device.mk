@@ -274,6 +274,7 @@ PRODUCT_PACKAGES += \
     init.qcom.recovery.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
+    init.qcom.usb.sh \
     init.qti.kernel.rc \
     init.target.rc \
     ueventd.qcom.rc \
@@ -437,7 +438,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/qcom/opensource/usb/etc
 
 # Telephony
 PRODUCT_PACKAGES += \
