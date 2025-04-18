@@ -1,0 +1,110 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "charger_fstab.qcom",
+    src: "charger_fstab.qcom",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    recovery: true,
+    vendor: true,
+    vendor_ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.batterysecret.rc",
+    src: "init.batterysecret.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mi_thermald.rc",
+    src: "init.mi_thermald.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.rc",
+    src: "init.qcom.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.usb.rc",
+    src: "init.qcom.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qti.kernel.rc",
+    src: "init.qti.kernel.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "init.target.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-lahaina.sh",
+    src: "init.kernel.post_boot-lahaina.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-shima.sh",
+    src: "init.kernel.post_boot-shima.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot-yupik.sh",
+    src: "init.kernel.post_boot-yupik.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.kernel.post_boot.sh",
+    src: "init.kernel.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sh",
+    src: "init.qcom.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "vendor_modprobe.sh",
+    src: "vendor_modprobe.sh",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.qcom.recovery.rc",
+    src: "init.qcom.recovery.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.qcom.rc",
+    filename: "ueventd.rc",
+    src: "ueventd.rc",
+    vendor: true,
+}
