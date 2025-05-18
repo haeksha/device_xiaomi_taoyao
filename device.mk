@@ -271,10 +271,10 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-yupik.sh \
     init.mi_thermald.rc \
     init.qcom.rc \
+    init.qcom.recovery.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qti.kernel.rc \
-    init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
     vendor_modprobe.sh
